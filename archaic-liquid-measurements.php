@@ -19,20 +19,14 @@ include("includes/functions.php");
   }
 
 ?>
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Convert Liquids</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
+<?php $pageTitle = 'Archaic Liquid Measurements'; ?>
+<?php include_once 'includes/header.php'; ?>
 
     <div id="main-content">
 
-      <h1>Volumizer</h1>
+      <h1>Archaic Liquid Measurements</h1>
   
-      <form action="liquid.php" method="post">
+      <form action="archaic-liquid-measurements.php" method="post">
         
         <div class="entry">
           <label>From:</label>&nbsp;
@@ -68,5 +62,6 @@ include("includes/functions.php");
       <a href="index.php">Return to menu</a>
       
     </div>
+    <?php include_once 'includes/footer.php'; ?>
   </body>
 </html>
